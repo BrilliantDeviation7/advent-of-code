@@ -19,10 +19,7 @@ def recurSum(n):
 
 
 with open('D7_input.txt', 'r') as f:
-    cmds = []
-    for l in f:
-        cmds.append(l.split())
-
+    cmds = [l.split() for l in f.readlines()]
     r = {"root": {}}
     dirs = ["root"]
 
