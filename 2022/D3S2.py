@@ -1,8 +1,7 @@
 import string
 
 
-def priority(c):
-    return string.ascii_letters.find(c) + 1
+def priority(c): return string.ascii_letters.find(c) + 1
 
 
 prioritiesSum = 0

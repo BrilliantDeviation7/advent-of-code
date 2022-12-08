@@ -1,6 +1,4 @@
-def intersect(a, b):
-    i = [v for v in a if v in b]
-    return i
+def intersect(a, b): return [v for v in a if v in b]
 
 
 count = 0
@@ -12,5 +10,4 @@ with open('D4_input.txt', 'r') as f:
         i = intersect(a, b)
         if len(i) > 0:
             count += 1
-
 print(count)

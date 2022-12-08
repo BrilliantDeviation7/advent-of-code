@@ -1,14 +1,14 @@
-stacks = [
-    list("SZPDLBFC"),
-    list("NVGPHWB"),
-    list("FWBJG"),
-    list("GJNFLWCS"),
-    list("WJLTPMSH"),
-    list("BCWGFS"),
-    list("HTPMQBW"),
-    list("FSWT"),
-    list("NCR"),
-]
+stacks = list(map(list, [
+    "SZPDLBFC",
+    "NVGPHWB",
+    "FWBJG",
+    "GJNFLWCS",
+    "WJLTPMSH",
+    "BCWGFS",
+    "HTPMQBW",
+    "FSWT",
+    "NCR",
+]))
 
 with open('D5_input.txt', 'r') as f:
     for l in f:
